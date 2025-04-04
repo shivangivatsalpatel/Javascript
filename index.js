@@ -375,3 +375,7 @@ const deepCopy = JSON.parse(JSON.stringify(originalObject)); //deepcopy
 originalObject.c.d = "shivi";
 console.log(originalObject);
 console.log(deepCopy);
+
+const newObject = {
+  z: "idkwhatiamdoing",
+};
