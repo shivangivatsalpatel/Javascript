@@ -359,23 +359,31 @@
 // console.log(login.id);
 // console.log(refrance.id);
 
-const originalObject = {
-  a: "1",
-  b: "2",
-  c: {
-    d: "3",
-  },
-};
+// const originalObject = {
+//   a: "1",
+//   b: "2",
+//   c: {
+//     d: "3",
+//   },
+// };
 
-// const newVar = { ...originalObject };  //spreadOprator
-// newVar.c.d = "shivi";
-// console.log(originalObject.c.d);
+// // const newVar = { ...originalObject };  //spreadOprator
+// // newVar.c.d = "shivi";
+// // console.log(originalObject.c.d);
 
-const deepCopy = JSON.parse(JSON.stringify(originalObject)); //deepcopy
-originalObject.c.d = "shivi";
-console.log(originalObject);
-console.log(deepCopy);
+// const deepCopy = JSON.parse(JSON.stringify(originalObject)); //deepcopy
+// originalObject.c.d = "shivi";
+// console.log(originalObject);
+// console.log(deepCopy);
 
-const newObject = {
-  z: "idkwhatiamdoing",
-};
+// const newObject = {
+//   z: "idkwhatiamdoing",
+// };
+
+console.log(hosting);
+var hosting = "hello";
+
+console.log(host(2, 5));
+function host(a, b) {
+  return a + b;
+}
